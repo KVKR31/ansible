@@ -1,5 +1,5 @@
 - name: installing http
-  hosts:                                          
+  hosts: redhat                                         
   become: yes
   tasks:
     - name: update packages and install httpd
